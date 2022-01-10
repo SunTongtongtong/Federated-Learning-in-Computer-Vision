@@ -2,7 +2,7 @@
 
 ## Transformer Based Framework：
 
-## data share:
+## Data Share:
 **FedCG:Leverage Conditional GAN for Protecting Privacy and Maintaining Competitive Performance in Federated Learning** upload classifier and generator for each client. The server merge the generators and send back. 
 
 ## Personalisation & Generalisation：
