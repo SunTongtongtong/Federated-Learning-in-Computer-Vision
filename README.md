@@ -12,3 +12,7 @@ Upload prototype instead of model gradients, prove to converge. Loss setting hav
 **On Bridging Generic and Personalized Federated Learning**
 upload hypernet for each client, and the hypernetwork is used to generate client personalised model weight. 
 
+## Server model generalisation
+**No Fear of Heterogeneity: Classifier Calibration for Federated Learning with Non-IID Data， NeurIPS2021**
+Finding the classifier is the key part that distribute differently between different clients. 
+The paper proposed to alignment classifiers among clients based on generated virtual representations. So federated learning first, and do the alignment afterwards. 
