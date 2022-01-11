@@ -16,3 +16,4 @@ upload hypernet for each client, and the hypernetwork is used to generate client
 **No Fear of Heterogeneity: Classifier Calibration for Federated Learning with Non-IID Data， NeurIPS2021**
 Finding the classifier is the key part that distribute differently between different clients. 
 The paper proposed to alignment classifiers among clients based on generated virtual representations. So federated learning first, and do the alignment afterwards. 
+Based on the mean/variance for each client on feature level, the server recalculate a single mean/variance. And based on a gaussian distribution with server mean/variance, the virtual representation was generated. 
