@@ -9,9 +9,12 @@
 Upload prototype instead of model gradients, prove to converge. Loss setting have a regularization between the server global prototype can client local prototype. The experiments are based on easy cnn nets, i.e, 2 CNN layers and 2 FC layers. 
 
 **No Fear of Heterogeneity: Classifier Calibration for Federated Learning with Non-IID Data， NeurIPS2021**
-Finding the classifier is the key part that distribute differently between different clients. 
+Finding the **classifier is the key** part that distribute differently between different clients. 
 The paper proposed to alignment classifiers among clients based on generated virtual representations. So federated learning first, and do the alignment afterwards. 
 Based on the mean/variance for each client on feature level, the server recalculate a single mean/variance. And based on a gaussian distribution with server mean/variance, the virtual representation was generated. 
+
+**FedProc: Prototypical Contrastive Federated Learning on Non-IID data**
+上传representation/prototype到server，server average prototype之后下发，每个client在这个prototype上进行contrastive learning操作，拉近同类；client端loss = CE loss+contrastive loss
 
 
 ## Personalisation & Generalisation：
