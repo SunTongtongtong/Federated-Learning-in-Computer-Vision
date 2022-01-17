@@ -14,7 +14,7 @@ The paper proposed to alignment classifiers among clients based on generated vir
 Based on the mean/variance for each client on feature level, the server recalculate a single mean/variance. And based on a gaussian distribution with server mean/variance, the virtual representation was generated. 
 
 **FedProc: Prototypical Contrastive Federated Learning on Non-IID data**
-上传representation/prototype到server，server average prototype之后下发，每个client在这个prototype上进行contrastive learning操作，拉近同类；client端loss = CE loss+contrastive loss
+上传representation/prototype到server，server average prototype之后下发，每个client在这个prototype上进行contrastive learning操作，拉近同类；client端loss = CE loss+contrastive loss, 很简单直接的idea
 
 
 ## Personalisation & Generalisation：
